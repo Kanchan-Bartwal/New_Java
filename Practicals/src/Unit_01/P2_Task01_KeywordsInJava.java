@@ -8,7 +8,7 @@ package unit1;
 
 public class P2_Task01_KeywordsInJava {
 
-	public static void main(String[] args) {
+	public static void main(String [] args) {
 		final int a =5;
 		//int new();
 		
