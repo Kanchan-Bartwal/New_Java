@@ -1,8 +1,8 @@
-package Unit_2;
+package Unit_02;
 
 import static java.lang.System.*;
 import static java.lang.Math.*;
-import Unit_1.*;
+import Unit_01.*;
 
 public class P11_Task02_ImportingAndPackagesInJava {
 
@@ -11,7 +11,7 @@ public class P11_Task02_ImportingAndPackagesInJava {
 		out.println(sqrt(4));
 		System.out.println(pow(2,2));
 		System.out.println(abs(6.3));
-		Info.main(null);
+		//Info.main(null);
 	}
 	
 
