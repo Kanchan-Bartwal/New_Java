@@ -1,11 +1,11 @@
-package unit1;
+package Unit_01;
 /* private:"inside class only"
 * protected:class+same package
 *public:class + within the package + outside the pack
 *default: no keyword,package-private
 */
 
-public class P2_Task02_Constantinjava {
+public class P2_Task02_ConstantsInjava {
 
 	public static final double Pi=3.14 ;
 		public static void main(String[] args) {
@@ -35,7 +35,7 @@ public class P2_Task02_Constantinjava {
 			return (a+b);
 		}
         static int multi(int a,int b) {
-        	return (a * b)
+        	return (a * b);
         }
 	}
 	
