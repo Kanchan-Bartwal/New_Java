@@ -21,6 +21,7 @@ public class Q1 {
 
         System.out.println("Average Percentage of Students is "+Student.avgPercent);
         sc.close();
+        
 	}
 
 }
