@@ -1,6 +1,6 @@
 package Assignment_01;
 
-	import unit2.*;
+	import Unit_02.*;
 	public class Ques09 {
 	     
 	    public String name="KANCHAN";
@@ -16,7 +16,7 @@ package Assignment_01;
 	       //System.out.println(obj.a);//we can not access a private member outside the class
 	       System.out.println(obj.b);
 	       // accesing another package public variable only 
-	       Sample s=  new Sample();
+	       Sample s=  new Sample());
 	       System.out.println("The age  imported from the class Sample:"+s.a);
 	       
 		}
