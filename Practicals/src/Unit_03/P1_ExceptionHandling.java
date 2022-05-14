@@ -80,7 +80,7 @@ class exception{
             throw new Exception();
         }
         else{
-            Ssytem.out.println("You are allowed to enter");
+            System.out.println("You are allowed to enter");
         }
     }
     void useofThrow_And_Finally() {
