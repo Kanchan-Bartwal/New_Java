@@ -3,10 +3,10 @@ package Assignment_01;
 	import unit2.*;
 	public class Ques09 {
 	     
-	    public String name="KHUSHI";
-	    int age=20;
+	    public String name="KANCHAN";
+	    int age=19;
 	    protected String section="E";
-	    private int salary=20000;
+	    private int salary=200000;
 		public static void main(String[] args) {
 			
 	       A obj=new A();
