@@ -1,4 +1,5 @@
 package Unit_03;
+
 import java.util.*;
 class exception{
     void basicException() {
@@ -49,7 +50,7 @@ class exception{
                 i++;
                 stackOverFlowError(i);
             }
-            //this is error cant resolved because it is not a ecption
+            //this is error can't resolved because it is not a exception
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -75,6 +76,7 @@ class exception{
             System.out.println(e.getMessage());
         }
     }
+    //lazy binding when method does not have throws Exception and possibly throwing exception
     void useofThrow(int age) throws Exception{
         if(age<18){
             throw new Exception();
@@ -87,7 +89,7 @@ class exception{
         try{
             useofThrow(17);
         }catch (Exception e){
-            //TODO Auto generated catch blocl
+            //TODO Auto generated catch block
             e.printStackTrace();
         }
         finally{
@@ -96,7 +98,7 @@ class exception{
     }
 
 }
-public class P14_Exception_Handling {
+public class P14_ExceptionHandling {
 
 
     public static void main(String args[]) {
@@ -108,6 +110,7 @@ public class P14_Exception_Handling {
 //  obj.stackOverFlowError(2);
         obj.indexOutofBoundException();
         obj.nullPointerException();
-        obj.useofThrow();
+        obj.useofThrow(12);
         obj.useofThrow_And_Finally();
     }
+}
